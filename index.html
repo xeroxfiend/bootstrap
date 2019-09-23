@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script async src="https://kit.fontawesome.com/d578a77712.js" crossorigin="anonymous"></script>
+    <script async src="./script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 class="start-bootstrap">Start Bootstrap</h1>
+            </div>
+            <nav>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <div onclick="clickHamburger()" class="menu-icon-container">
+                    <p class="menu">MENU</p>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="dropdown hide">
+        <div class="container">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </div>
+    </div>
+    <main>
+        <img class="background" src="./www.madebyvadim.com.jpg" alt="background" />
+        <div class="text-button-container">
+            <h3 class="welcome">Welcome To Our Studio!</h3>
+            <h1 class="nice">IT'S NICE TO MEET YOU</h1>
+            <button class="tell-me-more">TELL ME MORE</button>
+        </div>
+    </main>
+</body>
+
+</html>
